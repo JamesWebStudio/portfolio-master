@@ -22,7 +22,6 @@ export default defineNuxtConfig({
                 href: 'style.css',
                 type: 'text/css'
             },
-            
             {
                 rel: "icon",
                 type: "image/x-icon", 

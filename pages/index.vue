@@ -29,11 +29,11 @@
                 <h3>Modern Web Development</h3>
             </div>
             <div class="card-body">
-                <p>Using the latest technologies we create modern and functional websites and applications</p>
-                <p>All our work is fully responsize and works equally well on all screen sizes from mobile to large desktop devices</p>
-                <p>We use state of the art frameworks and libraries like Vue, Nuxt, Quasar, Node, Express and Adonis</p>
-                <p>Experienced with various SQL and noSQL databases, including SQL Server, mySQL, and MongoDB</p>
-                <p>Contact us to discuss your needs</p>
+                <p>Using the latest technologies I create modern and functional websites and applications</p>
+                <p>All my work is fully responsize and works equally well on all screen sizes from mobile to large desktop devices</p>
+                <p>I use state of the art frameworks and libraries like Vue, Nuxt, Quasar, Node, Express and Adonis</p>
+                <p>I am experienced with various SQL and noSQL databases, including SQL Server, mySQL, and MongoDB</p>
+                <p>Contact me to discuss your requirments</p>
             </div>
         </div>
         <div class="card slide-in-right-2">
@@ -42,10 +42,10 @@
             </div>
             <div class="card-body">
                 <p>Whether its a plain website, a personal blog or a full blown ecommerce application Wordpress is a great tool to use</p>
-                <p>Easy to use, powerful with a massive selection of themes and plugins to use it is not surprising that over 30% off all websites use Wordpress</p>
-                <p>With excellent support for SEO and security it’s a full-featured and extendable CMS and web development platform used by major companies like TechCrunch, 
+                <p>Easy to use, powerful with a massive selection of themes and plugins it is not surprising that over 35% off all websites use Wordpress</p>
+                <p>With excellent support for SEO and security it’s a fully-featured and extendable CMS and web development platform used by major companies like TechCrunch, 
                     Rolling Stone, Sony, CNN, Disney, Time Magazine and Vogue</p>
-                <p>Contact us to find out if Wordpress is the right choice for you</p>
+                <p>Contact me to find out if Wordpress is the right choice for you</p>
             </div>
         </div>
         <div class="card slide-in-right-3">
@@ -64,9 +64,9 @@
             </div>
             <div class="card-body">
                 <p>Already have a website?</p>
-                <p>Performance not as good as hoped or expected</p>
-                <p>We can review your site and make any improvements to increase speed, performance and user experience</p>
-                <p>This will lead to increased sales and also help with SEO rankings making your site more visible to search engines</p>
+                <p>Performance not as good as you hoped or expected</p>
+                <p>I can review your site and make any improvements to increase speed, performance and user experience</p>
+                <p>This will lead to increased sales, repeat visits and visitor engagement. This will also help with SEO rankings making your site more visible to search engines</p>
             </div>
         </div>
     </section>
@@ -189,14 +189,11 @@ span {
         grid-template-columns: 25vw 1fr;
         grid-template-areas: "intro services";
         column-gap: 20px;
-        /* margin-top: 60px; */
         width: 100vw;
         max-width: 100vw;
         padding: 0 3em;
         overflow-x: hidden;
     }
-
-
 
     #services {
         display: flex;

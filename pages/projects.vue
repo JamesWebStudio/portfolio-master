@@ -80,21 +80,36 @@
                     <a href="http://www.nuxtweather.surge.sh" target="_blank">Link</a>
                 </div>
             </section>
-            <!-- <section class="card slide-in-right">
+            <section class="card slide-in-right">
                 <div class="card-title">
-                    <h4>TBD</h4>
+                    <h4>Elite Rentals</h4>
                 </div>
-                <div class="card-sub-title">TBW</div>
+                <div class="card-sub-title">A Luxury Proprty Rental Site</div>
                 <div class="card-body">
-                    <img src="" alt="No Image" loading="lazy">
+                    <img src="@/assets/eliterentals-home.png" alt="No Image" loading="lazy">
                 </div>
                 <div class="card-tech">
-                    <p></p>
+                    <p>Wordpress, Custom Theme, ACF, Elementor, Theme Builder</p>
                 </div>
                 <div class="card-link">
                     <a href="" target="_blank">Link</a>
                 </div>
-            </section> -->
+            </section>
+            <section class="card slide-in-right">
+                <div class="card-title">
+                    <h4>Audio Nirvana</h4>
+                </div>
+                <div class="card-sub-title">A Hifi Retail site</div>
+                <div class="card-body">
+                    <img src="@/assets/audio-nirvana-home.png" alt="No Image" loading="lazy">
+                </div>
+                <div class="card-tech">
+                    <p>Wordpress, ACF, Elementor, Theme Builder</p>
+                </div>
+                <div class="card-link">
+                    <a href="" target="_blank">Link</a>
+                </div>
+            </section>
         </section>
     </section>
 </template>
