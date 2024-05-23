@@ -1,7 +1,7 @@
 <template>
 <div id="home">
     <section id="intro" class="scale-in-center"> 
-        <img src="/images/logo.webp" alt="JamesWebStudio" class="img-fluid" style="aspect-ratio: 4 / 3" />
+        <img src="/images/logo.webp" alt="JamesWebStudio" class="img-fluid" />
         <div>
             <h3 class="text-focus-in mt-4"><span>Welcome to JamesWebStudio</span></h3>
             <p>I'm Nigel James a full stack web developer at JamesWebStudio</p>
