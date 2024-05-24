@@ -4,9 +4,9 @@
         <img src="/images/logo.webp" alt="JamesWebStudio" class="img-fluid" />
         <div>
             <h3 class="text-focus-in mt-4"><span>Welcome to JamesWebStudio</span></h3>
-            <p>I'm Nigel James a full stack web developer at JamesWebStudio</p>
+            <p>I'm Nigel James Wheeldon a full stack web developer at JamesWebStudio</p>
             <p>Availiable for front end, back end or full stack projects</p>
-            <nuxt-link to="/contact"><button class="btn heartbeat custom-btn">Contact Us</button></nuxt-link>
+            <nuxt-link to="/contact"><button class="btn heartbeat custom-btn">Contact Me</button></nuxt-link>
             <section id="tech-icons">
                 <div class="tech-icon">JAVASCRIPT</div>
                 <div class="tech-icon">VUE</div>
