@@ -1,12 +1,12 @@
 <template>
-    <div id="mainLayout" style="background-color: black; background: url('/images/background-texture-com.webp')">
+    <div id="mainLayout" style="background-color: black;">
         <Html lang="en-GB">
             <Head>
-                <Title>JamesWebStudio</Title>
+                <Title>Nigel Wheeldon@JamesWebStudio</Title>
+                <Meta name="description" content="JamesWebStudio - Functionality and Simplicity by Design" />
+                <Meta name="description" content="Web Developer from Birmingham" />
+                <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
             </Head>
-            <Meta name="description" content="JamesWebStudio - Functionality and Simplicity by Design" />
-            <Meta name="description" content="Web Developer from Birmingham" />
-            <Meta name="viewport" content="width=device-width, initial-scale=1.0" />
         </Html>
         <Nav />
         <slot />

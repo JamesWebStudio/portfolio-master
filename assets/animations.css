@@ -333,61 +333,6 @@
         }
 }
 
-.slide-in-right {
-	-webkit-animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-in-right-1 {
-	-webkit-animation: slide-in-right 1.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-in-right-2 {
-	-webkit-animation: slide-in-right 2.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
-	animation: slide-in-right 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-in-right-3 {
-	-webkit-animation: slide-in-right 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-right 3.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-.slide-in-right-4 {
-	-webkit-animation: slide-in-right 4.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-right 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-/**
- * ----------------------------------------
- * animation slide-in-right
- * ----------------------------------------
-*/
- @-webkit-keyframes slide-in-right {
-        0% {
-          -webkit-transform: translateX(1000px);
-                  transform: translateX(1000px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translateX(0);
-                  transform: translateX(0);
-          opacity: 1;
-        }
-}
-@keyframes slide-in-right {
-        0% {
-          -webkit-transform: translateX(1000px);
-                  transform: translateX(1000px);
-          opacity: 0;
-        }
-        100% {
-          -webkit-transform: translateX(0);
-                  transform: translateX(0);
-          opacity: 1;
-        }
-}
-
 .slide-in-top {
 	-webkit-animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -424,18 +369,17 @@
 }
       
 
-
-.slide-in-blurred-bottom {
-	-webkit-animation: slide-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	animation: slide-in-blurred-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+.slide-in-bottom {
+	-webkit-animation: slide-in-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	animation: slide-in-bottom 1.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 /**
  * ----------------------------------------
- * animation slide-in-blurred-bottom
+ * animation slide-in-bottom
  * ----------------------------------------
  */
- @-webkit-keyframes slide-in-blurred-bottom {
+ @-webkit-keyframes slide-in-bottom {
         0% {
           -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
                   transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
@@ -455,7 +399,7 @@
           opacity: 1;
         }
       }
-      @keyframes slide-in-blurred-bottom {
+      @keyframes slide-in-bottom {
         0% {
           -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
                   transform: translateY(1000px) scaleY(2.5) scaleX(0.2);

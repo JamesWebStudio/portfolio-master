@@ -23,8 +23,8 @@
             </section>
         </div>
     </section>
-    <section id="services" class="container slide-in-bottom">
-        <div class="card slide-in-right-1">
+    <section id="services" class="container">
+        <div class="card slide-in-bottom">
             <div class="card-title">
                 <h3>Modern Web Development</h3>
             </div>
@@ -36,7 +36,7 @@
                 <p>Contact me to discuss your requirments</p>
             </div>
         </div>
-        <div class="card slide-in-right-2">
+        <div class="card slide-in-bottom">
             <div class="card-title">
                 <h3>Wordpress Development</h3>
             </div>
@@ -48,7 +48,7 @@
                 <p>Contact me to find out if Wordpress is the right choice for you</p>
             </div>
         </div>
-        <div class="card slide-in-right-3">
+        <div class="card slide-in-bottom">
             <div class="card-title">
                 <h3>SEO Services</h3>
             </div>
@@ -58,7 +58,7 @@
                 <p></p>
             </div>
         </div>
-        <div class="card slide-in-right-4">
+        <div class="card slide-in-bottom">
             <div class="card-title">
                 <h3>Website Optimization</h3>
             </div>
