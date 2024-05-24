@@ -2,7 +2,7 @@
     <section id="projects">
         <div id="projects-head-info">
             <h2>Projects</h2>
-            <h5>A small sample of our previous work</h5>
+            <h5>A small sample of my previous work</h5>
         </div>
         <section id="cards-container">
             <section class="card slide-in-left">
