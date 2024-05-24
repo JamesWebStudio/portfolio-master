@@ -5,7 +5,7 @@
             <img src="~/assets/images/nuxt.png" alt="Nuxt" id="about-icon-2" class="slide-in-top  img-fluid">
             <img src="~/assets/images/quasar.png" alt="Quasar" id="about-icon-3" class="slide-in-right  img-fluid">
         </section> 
-        <section id="about-text" class="slide-in-blurred-bottom">
+        <section id="about-text" class="slide-in-bottom">
             <h5>JamesWebStudio is a web development company founded & run by myself, <span>Nigel James Wheeldon</span></h5>
             <h5>a full stack web developer from Birmingham England</h5>
             <p class="mt-5">I have been involved in various positions in the IT industry and have over 5 years in web development experience</p>

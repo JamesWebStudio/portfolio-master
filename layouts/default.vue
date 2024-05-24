@@ -1,5 +1,5 @@
 <template>
-    <div id="mainLayout" style="background-color: black;">
+    <div id="mainLayout" style="background-color: black; background: url('/images/background-texture2.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
         <Html lang="en-GB">
             <Head>
                 <Title>Nigel Wheeldon@JamesWebStudio</Title>
