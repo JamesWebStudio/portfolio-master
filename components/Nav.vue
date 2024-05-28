@@ -20,6 +20,9 @@
                 <li class="nav-item">
                     <nuxtLink class="nav-link" to="contact">Contact</nuxtLink>
                 </li>
+                <li class="nav-item">
+                    <nuxtLink class="nav-link" to="resume">Resume</nuxtLink>
+                </li>
             </ul>
         </div>
     </div>

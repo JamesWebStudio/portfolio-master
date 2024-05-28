@@ -176,6 +176,7 @@ span {
     line-height: 25px;
     text-align: center;
     border-radius: 2px solid orange;
+    font-size: 1.1rem;
 }
 
 #tech-icons {
@@ -222,6 +223,11 @@ span {
 
     .card {
         width: 100%;
+        font-size: 3rem;
+    }
+
+    .card-body p {
+        font-size: 1.2rem;
     }
 
     #tech-icons {

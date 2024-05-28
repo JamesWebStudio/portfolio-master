@@ -15,7 +15,7 @@
       margin:0;
       padding:0;
       box-sizing: border-box;
-      font-family: 'Roboto', Montserrat, sans-serif;
+      font-family: Calibri, Montserrat, sans-serif;
       background-color: rgb(62, 62, 77);
       background-repeat: no-repeat;
       background-size: cover;
@@ -86,7 +86,6 @@
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    
   }
 
   .card-body img {

@@ -13,7 +13,7 @@
                 to achieve high performing, functional and intuitive web sites and applications
             </p>
             <p>Functionality, performance and simplicity are key to a great user experience, conversions and repeat visits</p>
-            <p>I am a big Vue.js fan and supporter and I have included some Youtube videos on the front end frameworks I prefer to use so you can see if they are a good fit for your needs</p>
+            <p>I am a keen Vue.js supporter and I have included some Youtube videos on the front end frameworks I prefer to use so you can see if they are a good fit for your needs</p>
             <nuxt-link to="/contact" class="link">Contact us for more information</nuxt-link>
         </section>
         <section id="about-videos">
@@ -24,7 +24,7 @@
             </div>
             <div>
                 <h5>Nuxt 3</h5>
-                <h6>the next big thing in web developmentt</h6>
+                <h6>the next big thing in web development</h6>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/noq-ZHTD2Cg" title="Nuxt 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="slide-in-right">
@@ -89,7 +89,7 @@
     }
 
     h5, h6, p {
-        font-family: 'Roboto', Montserrat, sans-serif;
+        /* font-family: Calibri Montserrat, sans-serif; */
         letter-spacing: 2px;
         line-height: 35px;
         margin: 0 auto;
@@ -119,6 +119,7 @@
 
         #about-text {
             padding: 60px 10vw;
+            /* font-family: Calibri, Montserrat, Arial; */
         }
 
         #about-text h5 {
