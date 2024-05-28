@@ -96,13 +96,13 @@
 <style scoped>
 @font-face {
     font-family: "Calibri";
-    src: url("assets/fonts/calibri-regular.ttf") format("truetype");
-    font-family: "Montserrat";
-    src: url("assets/fonts/Monserrat/static/Montserrat-SemiBold.ttf") format("truetype");
+    src: url("assets/fonts/CalibreMedium.otf") format("truetype");
+    /* font-family: "Montserrat";
+    src: url("assets/fonts/Monserrat/static/Montserrat-SemiBold.ttf") format("truetype"); */
 }
 
 #resumeLayout {
-    font-family: 'Calibre';
+    font-family: 'Calibri';
 }
 
 .header {
