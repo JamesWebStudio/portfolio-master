@@ -13,7 +13,7 @@
             <div id="header-contact">
                 <div>
                     <img src="../assets/icons8-email-64.png" alt="Email">
-                    <h4>jameswebstudio@outlook.com  nigeljames14@outlook.com</h4>
+                    <h4>jameswebstudio@outlook.com,   nigeljames14@outlook.com</h4>
                 </div>
                 <div>
                     <img src="../assets/icons8-phone-94.png" alt="Phone">
@@ -107,7 +107,7 @@
 
 .header {
     text-align: center;
-    line-height: 40px;
+    /* line-height: 40px; */
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -164,15 +164,13 @@
 #summary, #experience, #education, #skills {
     padding: 10px;
     letter-spacing: 2px;
-    line-height: 24px;
     max-width: 1400px;
     margin: 0 auto;
 }
 
 #summary h3, #experience h3, #education h3, #skills h3 {
-    font-size: 1.4rem;
+    font-size: 3.2rem;
     letter-spacing: 2px;
-    line-height: 50px;
     text-align: left;
     font-weight: 900;
     margin-bottom: 30px;
@@ -180,7 +178,7 @@
 }
 
 #summary p, #experience p, #education p {
-    line-height: 40px;
+    line-height: 32px;
 }
 
 #skills {
@@ -217,13 +215,18 @@
         margin-bottom: 20px;
         font-size: 1.2rem;
     }
+
+    #summary p, #experience p, #education p {
+        line-height: 28px !important;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:1000px) {
     #main-section {
         display: grid;
         grid-template-columns: 1fr minmax(200px 30%);
-        padding: 0 15vw;
+        padding: 0 12vw;
     }    
 
     #summary {
@@ -253,6 +256,22 @@
         grid-column-start: 2;
         grid-column-end: 3;
         align-items: start;
+        
+    }
+
+    #skills h3 {
+        text-align: center;
+    }
+
+    #skills ul li {
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+        letter-spacing: 2px;
+    }
+
+    #summary p, #experience p, #education p {
+        line-height: 32px !important;
+        font-size: 20px;
     }
 }
 
@@ -261,6 +280,7 @@
         width: 21cm;
         color: black;
         background-color: white;
+        font-size: 18px;
     }
     
 }

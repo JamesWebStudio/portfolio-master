@@ -110,6 +110,21 @@
                     <a href="" target="_blank">Link</a>
                 </div>
             </section>
+            <section class="card slide-in-right">
+                <div class="card-title">
+                    <h4>Cosmic News</h4>
+                </div>
+                <div class="card-sub-title">A Wordpress News & Opinion Site</div>
+                <div class="card-body">
+                    <img src="@/assets/cosmicnews.jpg" alt="No Image" loading="lazy">
+                </div>
+                <div class="card-tech">
+                    <p>Wordpress, Elementor, Polls</p>
+                </div>
+                <div class="card-link">
+                    <a href="" target="_blank">Link</a>
+                </div>
+            </section>
         </section>
     </section>
 </template>
