@@ -1,6 +1,6 @@
 .scale-in-center {
-	-webkit-animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /**
@@ -336,8 +336,8 @@
       
 
 .slide-in-bottom {
-	-webkit-animation: slide-in-bottom 16s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	animation: slide-in-bottom 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	-webkit-animation: slide-in-bottom 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	animation: slide-in-bottom 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
 
 /**

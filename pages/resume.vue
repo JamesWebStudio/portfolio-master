@@ -1,5 +1,6 @@
 <template>
     <div id="resumeLayout">
+        <Nav id="nav"/>
         <header class="header">
             <div id="header-info">
                 <h1 class="mb-4">Nigel Wheeldon</h1>
@@ -13,7 +14,7 @@
             <div id="header-contact">
                 <div>
                     <img src="../assets/icons8-email-64.png" alt="Email">
-                    <h4>jameswebstudio@outlook.com,   nigeljames14@outlook.com</h4>
+                    <h4>jameswebstudio@outlook.com</h4>
                 </div>
                 <div>
                     <img src="../assets/icons8-phone-94.png" alt="Phone">
@@ -21,7 +22,7 @@
                 </div>
                 <div>
                     <img src="../assets/icons8-web-94.png" alt="Web">
-                    <h4><a href="https://jameswebstudio.uk" target=" _blank">www.jameswebstudio.uk</a></h4>
+                    <h4><a href="https://jameswebstudio.uk" target=" _blank" style="text-decoration: none;">www.jameswebstudio.uk</a></h4>
                 </div>
                 <div>
                     <img src="../assets/icons8-location-94.png" alt="Location: ">
@@ -101,22 +102,19 @@
     src: url("assets/fonts/Monserrat/static/Montserrat-SemiBold.ttf") format("truetype"); */
 }
 
+body { max-width: 100vw; }
+
 #resumeLayout {
     font-family: 'Calibri';
 }
 
 .header {
     text-align: center;
-    /* line-height: 40px; */
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-}
-
-.header-info h1 {
-    font-size: 36px;
-    font-weight: 800;
+    /* margin-bottom: 30px; */
 }
 
 #header-info {
@@ -129,6 +127,11 @@
     width: 100vw;
 }
 
+#header-info h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 #social-icons {
     display:flex;
     gap: 15px;
@@ -139,8 +142,15 @@
 #header-contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding:20px;
     width: 100vw;
+    /* height: 550px; */
+}
+
+#header-contact div {
+    height: 80px;
+    margin:20px;
 }
 
 #header-contact div img {
@@ -150,7 +160,7 @@
 }
 
 #header-contact div h4 {
-    font-size: 1rem;
+    font-size: 1.4rem;
 
     a {
         color: white;
@@ -161,6 +171,12 @@
     }
 }
 
+#contact-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #summary, #experience, #education, #skills {
     padding: 10px;
     letter-spacing: 2px;
@@ -169,12 +185,11 @@
 }
 
 #summary h3, #experience h3, #education h3, #skills h3 {
-    font-size: 3.2rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     text-align: left;
     font-weight: 900;
     margin-bottom: 30px;
-    
 }
 
 #summary p, #experience p, #education p {
@@ -198,7 +213,7 @@
 #skills ul li {
     list-style: none;
     font-size: 1rem;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     letter-spacing: 2px;
     
 }
@@ -207,10 +222,22 @@
     font-weight: bold; 
     letter-spacing: 2px;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 } 
 
 @media screen and (min-width: 800px) {
+    #header-info h1 {
+        font-size: 48px;
+    }
+
+    #header-contact {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-items: baseline;
+       height: 100%;
+    }
+
     #header-contact div h4 {
         margin-bottom: 20px;
         font-size: 1.2rem;
@@ -228,6 +255,15 @@
         grid-template-columns: 1fr minmax(200px 30%);
         padding: 0 12vw;
     }    
+
+    #header-contact {
+        justify-content: center;
+
+    }
+
+    #header-info > h1 {
+        font-size: 68px;
+    }
 
     #summary {
         grid-row-start: 1;
@@ -277,10 +313,29 @@
 
 @media print {
     #resumeLayout {
+        margin-top: 50px;
         width: 21cm;
         color: black;
         background-color: white;
         font-size: 18px;
+    }
+
+    #nav {
+        display: none;
+    }
+
+    #contact-text {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #header-info h1 {
+        font-size: 60px;
+    }
+
+    #header-info h3 {
+        font-size: 40px;
     }
     
 }

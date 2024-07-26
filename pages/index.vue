@@ -303,7 +303,5 @@ span {
     .tech-icon:nth-of-type(12) {
         animation: roll-in-blurred-left 5.8s ease-in;
     }
-
 }
-
 </style>

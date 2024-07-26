@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark slide-in-top">
     <div class="container-fluid">
         <img src="/images/logo.webp" alt="" style="aspect-ratio: 1 / 1" />
         <a class="navbar-brand" href="/">JamesWebStudio</a>
@@ -77,10 +77,47 @@ nav {
     opacity: 0.6;
 }
 
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation slide-in-top
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
 @media screen and (min-width: 600px) {
     nav { 
         margin-bottom: 20px;
     }
+
 }
 
 @media screen and (min-width:1100px) {
