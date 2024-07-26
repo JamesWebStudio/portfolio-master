@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark slide-in-top">
     <div class="container-fluid">
-        <img src="/images/logo.webp" alt="" style="aspect-ratio: 1 / 1" />
+        <!-- <img src="/images/logo.webp" alt="" style="aspect-ratio: 1 / 1" /> -->
         <a class="navbar-brand" href="/">JamesWebStudio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,8 +36,10 @@
 <style scoped> 
 nav {
     width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    opacity: 0.5;
 }
+
 .container-fluid {
     display: flex;
     align-items: center;
@@ -51,8 +53,14 @@ nav {
     margin-top: 0;
 }
 .navbar-toggler {
-        float:right;
-    }
+    float:right;
+}
+
+.navbar-brand {
+    color: #F9A43A;
+    font-size: 1.4rem;
+}
+
 .ml-auto {
     margin-left: auto;
 }
@@ -78,8 +86,8 @@ nav {
 }
 
 .slide-in-top {
-	-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	-webkit-animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /**
@@ -89,8 +97,8 @@ nav {
  */
  @-webkit-keyframes slide-in-top {
   0% {
-    -webkit-transform: translateY(-1000px);
-            transform: translateY(-1000px);
+    -webkit-transform: translateY(-500px);
+            transform: translateY(-500px);
     opacity: 0;
   }
   100% {
@@ -130,6 +138,11 @@ nav {
         width: 90px;
         height:68px;
     }
+
+    .navbar-brand {
+        font-size: 2rem;
+    }
+
 
     nav {
         margin-bottom: 50px;
